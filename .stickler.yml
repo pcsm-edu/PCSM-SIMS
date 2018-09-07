@@ -1,0 +1,10 @@
+linters:
+  phpcs:
+    standard: PSR2
+    fixer: true
+files:
+  ignore:
+    - 'vendor/*'
+    - 'database/migrations/*'
+fixers:
+  enable: true
